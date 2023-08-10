@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(208, 209, 215, 0.7),rgba(184, 187, 203, 0.7)),url("backflower.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    background-color: rgb(212, 98, 4);
+    height: 40px;  padding-left: 15%;
+}
+nav ul li{
+    padding: 0 22px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+a{
+    color: black;
+}
+.text-box{
+    width: 90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    font-family: sans-serif;
+    color: black;
+
+}
+.text-box h2{
+    color: black;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color:black;
+}
+.hero{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid #fff;
+    padding:12px 34px;
+    font-size:25px;
+    background: transparent;
+    position: relative;
+    cursor:pointer
+
+}
+.hero:hover{
+    border:1px solid #443364;
+    background:#f44336;
+    transition: 1s;
+
+
+}
+@media(max-width:70px)
+{
+    .text-box h1{
+
+    }
+}
